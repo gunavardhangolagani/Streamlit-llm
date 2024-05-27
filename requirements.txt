@@ -1,3 +1,5 @@
 streamlit
 fireworks-ai
 langchain_fireworks
+langchain-anthropic
+pillow
