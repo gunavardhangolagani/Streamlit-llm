@@ -1,16 +1,22 @@
 services:
- postgres:
-   image: postgres
-   container_name: postgres
-   ports:
-     - '5432:5432'
-   restart: always
-   env_file:
-     - ./.env
-   volumes:
-     - postgres-db:/var/lib/postgresql/data
-
- pgadmin:
+  postgres:
+    image: postgres
+    container_name: postgres
+    ports:
+      - '5432:5432'
+    restart: always
+    env_file:
+      - ./.env
+    volumes:
+      - postgres-db:/var/lib/postgresql/data
+  web:
+    build:
+     dockerfile: dockerfile
+    ports:
+     - "8000:8000"
+    volumes:
+     - ".:${CWD:-/code}"
+  pgadmin:
    container_name: pgadmin4
    image: dpage/pgadmin4
    restart: always
