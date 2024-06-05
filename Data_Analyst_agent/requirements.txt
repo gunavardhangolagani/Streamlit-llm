@@ -3,5 +3,3 @@ langchain-community
 langchain-openai
 python-dotenv
 streamlit
-langchain_experimental
-
