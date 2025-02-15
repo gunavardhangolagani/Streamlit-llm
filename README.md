@@ -1,6 +1,8 @@
 # Data Analyst Agent
 
-The Data Analyst Agent is an AI-powered assistant that utilizes GPT-4 for data analysis. It integrates with SQL databases using LLM agents equipped with specialized tools to process user queries efficiently and provide insightful results. For results do checkout here : 
+The Data Analyst Agent is an AI-powered assistant that utilizes GPT-4 for data analysis. It integrates with SQL databases using LLM agents equipped with specialized tools to process user queries efficiently and provide insightful results. 
+
+For results do checkout here : [![Link](https://img.shields.io/badge/Action_Input-link-blue)](https://github.com/gunavardhangolagani/Streamlit-llm/blob/main/Data_Analyst_agent/Action%20input.png)  [![Link](https://img.shields.io/badge/Action_Output-link-blue)](https://github.com/gunavardhangolagani/Streamlit-llm/blob/main/Data_Analyst_agent/Analyst_output.png)
 
 ## Features
 
